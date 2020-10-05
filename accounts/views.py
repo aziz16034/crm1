@@ -157,6 +157,12 @@ def add_sales(request):
 
 
 
+def demo(request):
+    return render(request, 'demo.html')
+
+
+
+
 
 
 

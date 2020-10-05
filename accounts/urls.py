@@ -23,7 +23,19 @@ urlpatterns = [
 
     url('signup/',signup,name ='signup'),
 
-    url('add_item/',add_item,name ='add_item'),
+
+    
+    url(r'^add_stiching$', add_stiching, name= 'add_stiching'),
+    url(r'^add_weaving$', add_weaving, name= 'add_weaving'),
+    url(r'^add_maintain$', add_maintain, name= 'add_maintain'),
+    url(r'^add_sales$', add_sales, name= 'add_sales'),
+    url(r'^add_repair$', add_repair, name= 'add_repair'),
+    url(r'^demo$', demo, name= 'demo'),
+
+
+
+
+
 
 
 
